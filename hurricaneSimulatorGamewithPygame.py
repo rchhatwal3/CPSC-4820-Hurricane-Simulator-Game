@@ -20,7 +20,7 @@ Y = 1000
 display_surface = pygame.display.set_mode((X, Y))
 pygame.display.set_caption("Adventures of Hurricane Preparation")
 
-imagePath = r'C:\Users\Ramneek\Documents\Clemson\pr3\assets\hurricane.jpg'
+imagePath = r'C:/Users/Ramneek/Documents/Code_Projects/CPSC-4820-Hurricane-Simulator-Game/assets/hurricane.jpg'
 imageTextUpper = "Welcome to the Adventure of Hurricane Preparation"
 imageTextLower = "The weather outside isnt looking good. What should we do? Turn on the news or watch a movie?"
 
@@ -37,10 +37,10 @@ leftQuestionList = ["Do you Enjoy the nice weather while it lasts or Get supplie
 rightTextList = ["You turn on the local news again and they warn us the hurricane is to arrive in 36 hours. This time the alert is a warning, and not a watch", "18 hours until the hurricane"]
 rightQuestionList = ["You wonder what the difference is between a hurricane watch and a hurricane warning, do you look up the difference online or assume the definitions are interchangable?", "Do I start to move the garbage cans inside or go to the hardwood store to buy plywood"]
 questionImageDict = {
-    "Do you Enjoy the nice weather while it lasts or Get supplies from the grocery store?": r"C:\Users\Ramneek\Documents\Clemson\pr3\assets\hurricaneAlert.jpg",
-    "Do you ignore the feeling and collect seashells or go home to review the evacuation plan with your family": r"C:\Users\Ramneek\Documents\Clemson\pr3\assets\nervousFeeling.jpg",
-    "You wonder what the difference is between a hurricane watch and a hurricane warning, do you look up the difference online or assume the definitions are interchangable?": r"C:\Users\Ramneek\Documents\Clemson\pr3\assets\watchvswarning.jpg",
-    "Do I start to move the garbage cans inside or go to the hardwood store to buy plywood": r"C:\Users\Ramneek\Documents\Clemson\pr3\asssets\18hours.jpg"
+    "Do you Enjoy the nice weather while it lasts or Get supplies from the grocery store?": r"C:/Users/Ramneek/Documents/Code_Projects/CPSC-4820-Hurricane-Simulator-Game/assets/hurricaneAlert.jpg",
+    "Do you ignore the feeling and collect seashells or go home to review the evacuation plan with your family": r"C:/Users/Ramneek/Documents/Code_Projects/CPSC-4820-Hurricane-Simulator-Game/assets/nervousFeeling.jpg",
+    "You wonder what the difference is between a hurricane watch and a hurricane warning, do you look up the difference online or assume the definitions are interchangable?": r"C:/Users/Ramneek/Documents/Code_Projects/CPSC-4820-Hurricane-Simulator-Game/assets/watchvswarning.jpg",
+    "Do I start to move the garbage cans inside or go to the hardwood store to buy plywood": r"C:/Users/Ramneek/Documents/Code_Projects/CPSC-4820-Hurricane-Simulator-Game/assets/18hours.jpg"
 }
 
 def getButtonPush(arduino):
