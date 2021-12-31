@@ -3,4 +3,5 @@ Group project in CPSC 4820 where we created a hurricane simulator game for child
 This game we created uses an Arduino to accept button inputs from the user that will progress the game. The game is displayed to the user using PyGame with images and text that corresponds to the questions.
 
 Circuit Diagram for the Arduino shown here:
+
 ![](./Arduino_Circuit_Diagram.png?raw=true "Arduino Circuit Diagram")
